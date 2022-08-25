@@ -6,14 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Clone the repository
 
-### Commands
+### install dependencies 
+
 
 npm install 
 
-npm start
+
+
+### database
+
+npm setup 
+npm seed
 
 ### server
 
+npm start
 start up app on http://localhost:3000/
 
 ### run
