@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
+    "setup": "createdb bankly && psql bankly < data.sql && createdb bankly_test && psql bankly_test data.sql",
     "seed": "dropdb bankly && createdb bankly && psql bankly < data.sql && dropdb bankly_test && createdb bankly_test && psql bankly_test < data.sql",
     "start": "node server.js"
   },
